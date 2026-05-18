@@ -1,0 +1,91 @@
+####################################
+# MAVEN
+####################################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+
+####################################
+# LOG FILES
+####################################
+*.log
+logs/
+
+####################################
+# SPRING BOOT
+####################################
+*.pid
+*.seed
+*.pid.lock
+
+####################################
+# IDE FILES
+####################################
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+.factorypath
+# VS Code
+.vscode/
+
+####################################
+# OS FILES
+####################################
+.DS_Store
+Thumbs.db
+
+####################################
+# JAVA
+####################################
+*.class
+
+####################################
+# TEMP FILES
+####################################
+*.tmp
+*.swp
+*.swo
+*~
+
+####################################
+# ENV / LOCAL CONFIG
+####################################
+.env
+.env.local
+
+####################################
+# APPLICATION SECRETS
+####################################
+application-local.yml
+application-local.properties
+application-dev.yml
+
+####################################
+# NODE (if frontend added later)
+####################################
+node_modules/
+dist/
+
+####################################
+# TEST OUTPUT
+####################################
+surefire-reports/
+failsafe-reports/
+
+####################################
+# DOCKER
+####################################
+docker-compose.override.yml
